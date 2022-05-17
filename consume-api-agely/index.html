@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API data in table</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+      <h1 class="text-center">Dados API - Agely</h1>
+      <br/>
+      <div class="container">
+        <table id="tableAgyle" class="table table-responsive table-bordered table-striped table-hover table-striped" style="margin-top: 5px" >
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Nome</th>
+              <th scope="col">Idade</th>
+              <th scope="col">Doses</th>
+              <th scope="col">Teve Covid</th>
+            </tr>
+          </thead>
+          <tbody id="table_body">
+          </tbody>
+        </table>
+        
+        <br/>
+        <h3 class="text-center">Informações</h3>
+        <br/>
+
+        <div class="content-info">
+          <div id="mediaInfected"></div>
+          <div id="mediaNotInfected"></div>
+          <div id="newOld"></div>
+          <div id="percentage_0_doses"></div>
+          <div id="percentage_3_doses"></div>
+          <div id="mediaDosesPeople"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.min.js"></script>
+  </body>
+</html>

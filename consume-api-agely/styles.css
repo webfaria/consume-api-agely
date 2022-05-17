@@ -1,0 +1,29 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content-info {
+  background-color: #f2f2f2;
+  margin-bottom: 40px;
+}
+
+p{
+  padding: 10px 0 5px;
+  margin: 0 auto;
+  line-height: 2.0rem;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 16px;
+}
+
+p span {
+  background-color: #212529;
+  color: #f2f2f2;
+  padding: 2px 5px;
+
+  font-weight: 700;
+}
