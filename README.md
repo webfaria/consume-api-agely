@@ -1,5 +1,3 @@
-# consume-api-agely
-
 > # Consumo API Agely
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/webfaria/projeto-sds3/blob/main/LICENSE)
 
